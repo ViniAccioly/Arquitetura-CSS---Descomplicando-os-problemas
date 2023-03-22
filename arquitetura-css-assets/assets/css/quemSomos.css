@@ -39,14 +39,25 @@ font-family: Pacifico, cursive;
 }
 
 .pessoas{
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: space-around;
 }
 
 .pessoa__imagem {
-    background: red;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
+}
+
+.pessoa__imagem--roberta{
+    border-radius: 50%;
+}
+
+.pessoa__imagem--marcela{
+    border-radius: 50%;
+}
+
+.pessoa__imagem--andreia{
+    border-radius: 50%;
 }
