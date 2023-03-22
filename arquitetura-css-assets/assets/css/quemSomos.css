@@ -1,0 +1,52 @@
+.quem-somos__titulo{
+margin-bottom: 1rem;
+
+color: #8d0606;
+font-size: 3.1875rem;
+font-family: Pacifico, cursive;
+
+
+    
+}
+
+.quem-somos{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.quem-somos__descricao {
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.pessoa__nome{
+    margin: 1rem 0;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    color: #8d0606;
+}
+
+.pessoa__funcao { 
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+}
+
+.pessoas{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pessoa__imagem {
+    background: red;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
